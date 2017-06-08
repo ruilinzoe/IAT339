@@ -1,0 +1,208 @@
+
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+
+
+
+*/
+
+@font-face {
+    font-family: font1;
+    src:url(../SILVS___.TTF);
+}
+
+@font-face{
+  font-family: font2;
+  src:url(../DINMittelschriftStd.otf);
+}
+
+
+
+
+.nav-main{
+  display: block;
+  background-color: lightgrey;
+  color: black;
+  text-decoration: none;
+  font-size:2rem;
+  width: 33%;
+
+}
+.nav-main:hover,.nav-main:focus{
+  background-color: white;
+
+}
+
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+h1{
+  font-size: 2rem;
+  font-family: font1;
+
+}
+h4{
+  font-size: 1.5rem;
+  font-style: italic;
+
+}
+h5{
+  font-size: 1rem;
+
+}
+p{
+  font-family: font2;
+}
+
+
+ul, ol{
+  width: 20%;
+}
+
+li{
+  background-color: rgb(110,231,242);
+  font-weight: bold;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color:rgb(67,190,232);
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(110,231,242);
+}
+
+.button-submit {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color:rgb(85,84,199);
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-submit:hover, .button-submit:focus {
+  background-color: rgb(104,137,232);
+}
+
+.intext{
+  color: rgb(104,137,232);
+  text-decoration: none;
+}
+
+.intext:hover, .intext:focus{
+  color: rgb(85,84,199);
+}
+
+form label{
+ font-weight: bold;
+
+}
+.b1, .b2, .b3, .b4, .b5{
+  width: 25%;
+  height: 3rem;
+display: block;
+background-color: green;
+}
+.b1{
+  background-color: rgb(90, 177, 255);
+ 
+  
+ }
+ 
+.b2{
+ background-color: rgb(67, 255, 243);
+}
+.b3{background-color: rgb(67, 198, 232);
+
+}
+.b4{
+ background-color: rgb(104, 137, 232);
+}
+.b5{
+  background-color: rgb(85, 84, 199);
+}
+}
+
+
+
+/*.nav-item{
+  display: block;
+  font-size: 2rem;
+  background: rgb(67,190,232);
+  text-decoration: none;
+  color: white;
+  transition: background .5s, color .5s;
+
+
+  
+}*/
+.nav-item{
+   display: block;
+
+   font-size: 2rem;
+  background: rgb(67,190,232);
+  text-decoration: none;
+  color: white;
+  transition: background .5s, color .5s;
+  /*position: fixed;*/
+  width: 8%;
+  
+  /*top: 5rem;*/
+  /*left: .5%;*/
+  padding: 1rem 1.5%;
+  height: 4rem;
+  
+
+}
+
+.nav-item:hover,.nav-item:focus,.nav-item:active{
+  background: rgb(110,201,232);
+  color: rgb(93,150,179); 
+}
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
