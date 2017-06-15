@@ -1,4 +1,54 @@
 
+h2{
+	margin-top: 5rem;
+	padding-left: 2rem;
+	background-color: rgb(85, 84, 199);
+
+}
+
+
+h3{ 
+display: inline-block;
+margin-left: 2%;
+	width: 28%;
+ }
+img{
+	margin-left: 2%;
+	width: 28%;
+}
+.name{
+	margin-top: 0;
+	position: relative;
+	top: 1rem;
+	left: 32%;
+	padding: 0;
+	display: block;
+	width: 28%;
+	z-index: 2;
+
+}
+
+.bigprofile{
+	position: relative;
+	left: 30%;
+	width: 28%;
+	height: 7rem;
+}
+
+
+.grid-1of3{
+	margin-top: 2rem;
+	margin-left: 2%;
+	display: inline-block;
+	width: 28%;
+}
+.heading1{
+	color: black;
+	margin-top: 13%;
+}
+
+
+
 .grid-3of24{
 		width: 13%;
 		float: left;
@@ -18,7 +68,6 @@ nav a{
 	padding: .5rem ;
 	background-color: rgb(67, 220, 232);
 	transition: background-color .5s;
-	/*text-align: center;*/
 
 
 
@@ -32,7 +81,7 @@ body{
 	margin: 0;
 	background: url("../img/8.jpg");
 	background-repeat: no-repeat;
-	background-position:center; 
+	background-position:top; 
 	background-size: 100% 12rem;
 
 }
@@ -75,7 +124,7 @@ h1{
 	body{
 		background: url("../img/8.jpg");
 		background-repeat: no-repeat;
-		background-position:center; 
+		background-position:top; 
 		background-size: 100% 10rem;
 
 
@@ -107,7 +156,7 @@ h1{
 	body{
 		background: url("../img/8.jpg");
 		background-repeat: no-repeat;
-		background-position:center; 
+		background-position:top; 
 		background-size: 100% 7rem;
 
 	}
