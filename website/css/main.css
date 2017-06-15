@@ -2,6 +2,19 @@ nav{
 	font-size: 1.5rem;
 	
 }
+nav a{
+	color: rgb(0,0,0);
+	text-decoration: none;
+	padding: .5rem ;
+	background-color: rgb(67, 220, 232);
+	transition: background-color .5s;
+
+}
+nav a:hover, nav a:focus{
+	/*border: 1px solid black;*/
+	color: rgb(85,84,199);
+	background-color: rgb(67, 198, 232);
+}
 body{
 	margin: 0;
 	background: url("../img/8.jpg");
@@ -22,7 +35,7 @@ body{
 		position: relative;
 		top:4.5rem;
 
-		background-color: grey;
+		background-color: rgb(67, 198, 232);
 		left:-4%; 
 		padding-left: 6%;
 		padding-right: 0;
@@ -30,9 +43,9 @@ body{
 		padding-bottom: .5rem;
 		/*padding: 1rem 1rem 7% 3&&;*/
 		width: 98%;
-	}
+}
 
-	@media(max-width: 60rem){
+@media(max-width: 60rem){
 	body{
 		background: url("../img/8.jpg");
 	background-repeat: no-repeat;
@@ -52,7 +65,7 @@ body{
 	width: 3.5rem;
 	height: 3.5rem;
 	
-}
+	}
 }
 
 
@@ -103,6 +116,7 @@ body{
 
 
 }
+
 @media(max-width: 21rem){
 	body{
 		background: url("../img/8.jpg");
@@ -123,7 +137,7 @@ body{
 	width: 2rem;
 	height: 2rem;
 	
-}
+	}
 	h1{
 		font-size: 1.75rem;
 	}
