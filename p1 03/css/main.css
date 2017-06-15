@@ -1,0 +1,82 @@
+img{
+		height: auto;
+		width: 49%;
+		opacity: .8;
+}
+img:hover, img:focus,img:active{
+	opacity: 1;
+}
+.grid-5of10{
+		
+		width: 80%;
+
+}
+
+nav{
+
+
+}
+
+nav a{
+	display: block;
+	font-size: 2rem;
+	background: rgb(67,190,232);
+	text-decoration: none;
+	color: white;
+	transition: background .5s, color .5s;
+
+
+	
+}
+
+nav a:hover,nav a:focus,nav a:active{
+	background: rgb(110,201,232);
+	color: rgb(93,150,179);	
+	width: 10%;
+}
+
+.home{
+	display: block;
+	position: fixed;
+	width: 8%;
+	
+	top: 5rem;
+	left: .5%;
+	padding: 1rem 1.5%;
+	height: 4rem;
+	
+}
+
+.shop{
+	display: block;
+	position: fixed;
+	width: 8%;
+	top: 11rem;
+	left: .5%;
+	padding: 1rem 1.5%;
+	height: 4rem;
+
+}
+
+.trending{
+	display: block;
+	position: fixed;
+	width: 8%;
+	top: 17rem;
+	left: .5%;
+	padding: 1rem 1.5%;
+	height: 4rem;
+
+}
+.sponsor{
+	display: block;
+	position: fixed;
+	width: 8%;
+	top: 23rem;
+	left: .5%;
+	padding: 1rem 1.5%;
+	height: 4rem;
+}
+body{
+	margin-left: 14%;
+}
