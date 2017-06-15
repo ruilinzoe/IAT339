@@ -1,24 +1,44 @@
 nav{
+	font-size: 1.5rem;
 	
 }
 body{
+	margin: 0;
 	background: url("../img/8.jpg");
 	background-repeat: no-repeat;
 	background-position:center; 
-	background-size: 100% 10rem;
+	background-size: 100% 12rem;
 	background-clip:20rem; 
 
 }
 .nav-main-item{
 		position: relative;
-		top:3rem;
+		top:4.5rem;
 
 		background-color: grey;
 		left:-4%; 
 		padding-left: 7%;
 		padding-right: 3%;
+		padding-top: .5rem;
+		padding-bottom: .5rem;
+		/*padding: 1rem 1rem 7% 3&&;*/
 		width: 110%;
 	}
+
+	@media(max-width: 60rem){
+	body{
+		background: url("../img/8.jpg");
+	background-repeat: no-repeat;
+	background-position:center; 
+	background-size: 100% 10rem;
+	background-clip:20rem; 
+
+	}
+	.nav-main-item{
+		position: relative;
+		top: 3.5rem;
+	}
+}
 
 
 @media(max-width: 44rem){
@@ -32,7 +52,8 @@ body{
 	}
 	.nav-main-item{
 		position: relative;
-		top: 2rem;
+		top: 2.5rem;
+		font-size: 1.25rem;
 	}
 }
 @media(max-width: 30rem){
@@ -40,11 +61,12 @@ body{
 		background: url("../img/8.jpg");
 	background-repeat: no-repeat;
 	background-position:0% 0%; 
-	background-size: 100% 5rem;
+	background-size: 100% 6rem;
 	}
 	.nav-main-item{
 		position: relative;
-		top:0;
+		top:1.5rem;
+		font-size: 1rem;
 	}
 
 }
@@ -59,7 +81,7 @@ body{
 	}
 	.nav-main-item{
 		position: relative;
-		top:0;
+		top:0rem;
 	}
 	h1{
 		font-size: 1.75rem;
@@ -67,7 +89,9 @@ body{
 }
 
 h1{
-	margin-top: 0;
+	color: white;
+	margin: 0;
+	padding: 1rem;
 }
 .backgroundImage{
 	/*position: relative;
