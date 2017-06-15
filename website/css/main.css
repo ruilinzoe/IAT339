@@ -1,7 +1,18 @@
 nav{
 	
 }
+body{
+	background: url("../img/blueback.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 30rem;
+	background-position: center -15rem;
 
-h1{
-	background-image: url("");
 }
+
+/*h1{
+	margin: 0;
+	padding: 3rem;
+	background-image: url("../img/blueback.jpg");
+	background-size:  50% auto;
+	background-repeat: no-repeat;
+}*/
