@@ -8,7 +8,6 @@ body{
 	background-repeat: no-repeat;
 	background-position:center; 
 	background-size: 100% 12rem;
-	background-clip:20rem; 
 
 }
 .profile{
@@ -39,7 +38,7 @@ body{
 	background-repeat: no-repeat;
 	background-position:center; 
 	background-size: 100% 10rem;
-	background-clip:20rem; 
+
 
 	}
 	.nav-main-item{
@@ -63,7 +62,6 @@ body{
 	background-repeat: no-repeat;
 	background-position:center; 
 	background-size: 100% 7rem;
-	background-clip:20rem; 
 
 	}
 	.nav-main-item{
@@ -136,26 +134,3 @@ h1{
 	margin: 0;
 	padding: .5rem;
 }
-
-
-
-.backgroundImage{
-	/*position: relative;
-	top: -2rem;
-	float: right;
-	width: 100%;
-	border: 1px solid black;
-    padding:50px;
-    background-clip: content-box;*/
-	/*background: url("../img/blueback.jpg");
-	background-repeat: no-repeat;*/
-	/*background-position: center 20rem;
-	background-size: 100% auto;*/
-
-/*h1{
-	margin: 0;
-	padding: 3rem;
-	background-image: url("../img/blueback.jpg");
-	background-size:  50% auto;
-	background-repeat: no-repeat;
-}*/
