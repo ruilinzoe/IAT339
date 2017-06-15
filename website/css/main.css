@@ -1,13 +1,25 @@
+
+.grid-3of24{
+		width: 13%;
+		float: left;
+	}
+
 nav{
 	font-size: 1.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
 	
 }
 nav a{
+
 	color: rgb(0,0,0);
 	text-decoration: none;
 	padding: .5rem ;
 	background-color: rgb(67, 220, 232);
 	transition: background-color .5s;
+
+
 
 }
 nav a:hover, nav a:focus{
@@ -31,6 +43,21 @@ body{
 	height: 4rem;
 	
 }
+form{
+	position: absolute;
+	top: 6rem;
+	right: 1rem;
+}
+input{
+	width: 10rem;
+}
+h1{
+	color: white;
+	margin: 0;
+	padding: .5rem;
+}
+
+
 .nav-main-item{
 		position: relative;
 		top:4.5rem;
@@ -39,8 +66,6 @@ body{
 		left:-4%; 
 		padding-left: 6%;
 		padding-right: 0;
-		padding-top: .5rem;
-		padding-bottom: .5rem;
 		/*padding: 1rem 1rem 7% 3&&;*/
 		width: 98%;
 }
@@ -48,9 +73,9 @@ body{
 @media(max-width: 60rem){
 	body{
 		background: url("../img/8.jpg");
-	background-repeat: no-repeat;
-	background-position:center; 
-	background-size: 100% 10rem;
+		background-repeat: no-repeat;
+		background-position:center; 
+		background-size: 100% 10rem;
 
 
 	}
@@ -59,12 +84,20 @@ body{
 		top: 3.5rem;
 	}
 	.profile{
-	position: absolute;
-	top: 1rem;
-	right: 3%;
-	width: 3.5rem;
-	height: 3.5rem;
-	
+		position: absolute;
+		top: 1rem;
+		right: 3%;
+		width: 3.5rem;
+		height: 3.5rem;
+		
+	}
+	form{
+		position: absolute;
+		top: 5rem;
+		right: 1rem;
+	}
+	input{
+		width: 9rem;
 	}
 }
 
@@ -72,9 +105,9 @@ body{
 @media(max-width: 44rem){
 	body{
 		background: url("../img/8.jpg");
-	background-repeat: no-repeat;
-	background-position:center; 
-	background-size: 100% 7rem;
+		background-repeat: no-repeat;
+		background-position:center; 
+		background-size: 100% 7rem;
 
 	}
 	.nav-main-item{
@@ -83,12 +116,21 @@ body{
 		font-size: 1.25rem;
 	}
 	.profile{
-	position: absolute;
-	top: 1rem;
-	right: 3%;
-	width: 3rem;
-	height: 3rem;
+		position: absolute;
+		top: 1rem;
+		right: 3%;
+		width: 3rem;
+		height: 3rem;
 	
+	}
+	form{
+		position: absolute;
+		top: 4.25rem;
+		right: 1rem;
+	}
+	input{
+		width: 8rem;
+		height: .75rem;
 	}
 
 
@@ -96,9 +138,9 @@ body{
 @media(max-width: 30rem){
 	body{
 		background: url("../img/8.jpg");
-	background-repeat: no-repeat;
-	background-position:0% 0%; 
-	background-size: 100% 6rem;
+		background-repeat: no-repeat;
+		background-position:0% 0%; 
+		background-size: 100% 6rem;
 	}
 	.nav-main-item{
 		position: relative;
@@ -113,6 +155,15 @@ body{
 		height: 2.5rem;
 		
 	}
+	form{
+		position: absolute;
+		top: 3.25rem;
+		right: .5rem;
+	}
+	input{
+		width: 8rem;
+		height: .65rem;
+	}
 
 
 }
@@ -120,10 +171,10 @@ body{
 @media(max-width: 21rem){
 	body{
 		background: url("../img/8.jpg");
-	background-repeat: no-repeat;
-	background-position:0% 0%; 
-	background-size: 100% 4rem;
- 
+		background-repeat: no-repeat;
+		background-position:0% 0%; 
+		background-size: 100% 4rem;
+	 
 
 	}
 	.nav-main-item{
@@ -131,20 +182,47 @@ body{
 		top:0rem;
 	}
 	.profile{
-	position: absolute;
-	top: .5rem;
-	right: 2%;
-	width: 2rem;
-	height: 2rem;
+		position: absolute;
+		top: .5rem;
+		right: 2%;
+		width: 2rem;
+		height: 2rem;
 	
 	}
+	form{
+		display: none;
+	}
+	
+
 	h1{
+		padding: .5rem;
 		font-size: 1.75rem;
+	}
+	.grid-3of24{
+	
+		width: 100%;
+	}
+
+}
+
+@media(max-width: 19rem){
+	h1{
+
+	padding:0rem;
 	}
 }
 
-h1{
-	color: white;
-	margin: 0;
-	padding: .5rem;
-}
+
+	
+
+/*@media(max-width: 24rem){
+
+	.grid-3of24{
+		width: 50%;
+	}
+
+
+
+}*/
+
+
