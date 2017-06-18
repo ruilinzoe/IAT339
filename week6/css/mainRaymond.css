@@ -1,6 +1,14 @@
 @font-face {
     font-family: titlefont;
     src:url(../font/SILVS___.TTF);
+    /*src:url(../font/SubwayNovellaDEMO.ttf);*/
+   
+}
+#borderIt{
+	border: 3px solid black;
+	background-color: white;
+	border-radius: 5%;
+	background-color: rgb(67, 198, 232);
 }
 
 h2{
@@ -11,49 +19,52 @@ h2{
 	padding-top: .3rem;
 	padding-bottom: .3rem;
 	background-color: rgb(85, 84, 199);
-	width: 66.6%
+	width: 33%
+}
+p{
+	padding: 0;
+	margin: 0;
+	padding-top: 1rem;
 }
 
 
 h3{ 
-display: inline-block;
-margin-left: 2%;
-	width: 28%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	padding-top: 5%;
  }
 img{
-	margin-left: 2%;
-	width: 28%;
+	width: 100%;
 }
-.name{
-	margin-top: 0;
-	position: relative;
-	top: 1rem;
-	left: 32%;
-	padding: 0;
-	display: block;
-	width: 28%;
-	z-index: 2;
+figure{
 
+	padding:0;
+	margin: 1%;
+	margin-top: 5%;
+	/*width: 98%;*/
+	
 }
 
+@media (max-width: 44rem) {
 
-.grid-1of3{
-	margin-top: 2rem;
-	margin-left: 2%;
-	display: inline-block;
-	width: 28%;
-}
-.heading1{
-	color: black;
-	margin-top: 13%;
-}
-
-
-
-.grid-3of24{
-		width: 13%;
-		float: left;
+	figure{
+		margin: 0;
+		margin-top: 5%;
+		width: 100%;
 	}
+	
+}
+
+
+
+
+figure figcaption{
+	position: relative;
+	margin-left: 5%;
+	top: -2rem;
+}
+
 
 nav{
 	font-size: 1.5rem;
@@ -81,6 +92,7 @@ nav a:hover, nav a:focus{
 body{
 	margin: 0;
 	padding-top: 2rem;
+	margin-left: 2%;
 
 	background: url("../img/8.jpg");
 	background-repeat: no-repeat;
@@ -113,6 +125,7 @@ h1{
 	padding-left: 2.5rem;	
 	font-size: 3rem;
 	font-family: titlefont;
+
 }
 
 
@@ -134,12 +147,16 @@ h1{
 		background-repeat: no-repeat;
 		background-position:top; 
 		background-size: 100% 10rem;
+		background-color: rgb(203, 243, 239);
 
 
 	}
 	.nav-main-item{
 		position: relative;
 		top: 2rem;
+	}
+	h2{
+		margin-top: 3rem;
 	}
 	form{
 		position: absolute;
@@ -163,7 +180,7 @@ h1{
 		background-repeat: no-repeat;
 		background-position:top; 
 		background-size: 100% 7rem;
-
+	background-color: rgb(203, 243, 239);	
 	}
 	.nav-main-item{
 		position: relative;
@@ -194,6 +211,8 @@ h1{
 		background-repeat: no-repeat;
 		background-position:0% 0%; 
 		background-size: 100% 6rem;
+		background-color: rgb(203, 243, 239);
+		padding: 0;
 	}
 	.nav-main-item{
 		position: relative;
@@ -211,9 +230,6 @@ h1{
 		height: 1rem;
 		font-size: .7rem
 	}
-	body{
-		padding: 0;
-	}
 	
 	h1{
 		padding: 1rem;
@@ -230,7 +246,8 @@ h1{
 		background-repeat: no-repeat;
 		background-position:0% 0%; 
 		background-size: 100% 4rem;
-	 
+		background-color: rgb(203, 243, 239);
+	 	padding: 0;
 
 	}
 	.nav-main-item{
@@ -248,9 +265,6 @@ h1{
 	h1{
 		padding: .5rem;
 		font-size: 1rem;
-	}
-	body{
-		padding: 0;
 	}
 
 	.grid-3of24{

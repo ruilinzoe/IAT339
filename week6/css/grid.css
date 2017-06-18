@@ -15,7 +15,7 @@ Used the example from week3*/
 }
 
 .grid-col-1of2{
-	width: 50%
+	width: 49%
 
 }
 .grid-col-1of4{
@@ -23,12 +23,11 @@ Used the example from week3*/
 
 }
 .grid-col-1of3{
-	width: 33%;
 
+	width: 33%;
 }
 .grid-col-2of3 {
-	display: block;
-	width: 66.6%;
+	width: 66.66%;
 }
 
 .grid-row::after {
@@ -40,27 +39,23 @@ Used the example from week3*/
 .grid-col-1of4 > .nav-main-item {
 	width: 100%;
 }
-
-
-/*
-@media (min-width: 48.75em) {
-
-	.grid-col-1of2 {
-		width: 50%;
-	}
-
-	.grid-col-1of2:last-of-type {
-		padding-left: 1rem;
-	}
-
-	.grid-col-1of4 {
-		width: 50%;
-	}
-	body{
-	padding-top:2rem;
+.grid-3of24{
+		width: 13%;
+		float: left;
 }
 
-}*/
+
+
+@media (max-width: 44rem) {
+
+	.grid-col-1of2 {
+		width: 100%;
+	}
+	.grid-col-2of3{
+		width: 100%;
+	}
+
+}
 
 
 /*
