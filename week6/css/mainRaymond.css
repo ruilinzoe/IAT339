@@ -1,8 +1,17 @@
+@font-face {
+    font-family: titlefont;
+    src:url(../font/SILVS___.TTF);
+}
+
 h2{
+	position: relative;
+	left: 2rem;
 	margin-top: 5rem;
 	padding-left: 2rem;
+	padding-top: .3rem;
+	padding-bottom: .3rem;
 	background-color: rgb(85, 84, 199);
-
+	width: 66.6%
 }
 
 
@@ -25,13 +34,6 @@ img{
 	width: 28%;
 	z-index: 2;
 
-}
-
-.bigprofile{
-	position: relative;
-	left: 30%;
-	width: 28%;
-	height: 7rem;
 }
 
 
@@ -79,32 +81,38 @@ nav a:hover, nav a:focus{
 body{
 	margin: 0;
 	padding-top: 2rem;
+
 	background: url("../img/8.jpg");
 	background-repeat: no-repeat;
 	background-position:top; 
 	background-size: 100% 12rem;
+	background-color: rgb(203, 243, 239);
 
 }
-.profile{
-	position: absolute;
-	top: 1rem;
-	right: 3%;
-	width: 4rem;
-	height: 4rem;
-	
-}
+
 form{
 	position: absolute;
 	top: 6rem;
 	right: 1rem;
+
 }
 input{
 	width: 10rem;
+
+	font-size: 1.25rem;
+	background: url("../img/search.png");
+	background-repeat: no-repeat;
+	background-position: 1% 1%;
+	background-size: auto 100%;
+	text-indent: 20%;
+	background-color: white;
 }
 h1{
-	color: white;
+	color: black;
 	margin: 0;
-	padding: .5rem;
+	padding-left: 2.5rem;	
+	font-size: 3rem;
+	font-family: titlefont;
 }
 
 
@@ -133,14 +141,6 @@ h1{
 		position: relative;
 		top: 2rem;
 	}
-	.profile{
-		position: absolute;
-		top: 1rem;
-		right: 3%;
-		width: 3.5rem;
-		height: 3.5rem;
-		
-	}
 	form{
 		position: absolute;
 		top: 5rem;
@@ -148,6 +148,11 @@ h1{
 	}
 	input{
 		width: 9rem;
+		font-size: 1rem;
+	}
+	h1{
+		padding-bottom: 1rem;
+		font-size:2rem;
 	}
 }
 
@@ -163,24 +168,22 @@ h1{
 	.nav-main-item{
 		position: relative;
 		top: .5rem;
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
-	.profile{
-		position: absolute;
-		top: 1rem;
-		right: 3%;
-		width: 3rem;
-		height: 3rem;
-	
-	}
+
 	form{
 		position: absolute;
-		top: 4.25rem;
+		top: 4rem;
 		right: 1rem;
 	}
 	input{
 		width: 8rem;
-		height: .75rem;
+		height: 1rem;
+		font-size: .75rem;
+	}
+	h1{
+		/*padding:1rem;*/
+		font-size:1.5rem;
 	}
 
 
@@ -195,16 +198,9 @@ h1{
 	.nav-main-item{
 		position: relative;
 		top:1.5rem;
-		font-size: 1rem;
+		font-size: .70rem;
 	}
-	.profile{
-		position: absolute;
-		top: .75rem;
-		right: 3%;
-		width: 2.5rem;
-		height: 2.5rem;
-		
-	}
+
 	form{
 		position: absolute;
 		top: 3.25rem;
@@ -212,11 +208,18 @@ h1{
 	}
 	input{
 		width: 8rem;
-		height: .65rem;
+		height: 1rem;
+		font-size: .7rem
 	}
 	body{
 		padding: 0;
 	}
+	
+	h1{
+		padding: 1rem;
+		font-size: 1.25rem;
+	}
+
 
 
 }
@@ -232,16 +235,11 @@ h1{
 	}
 	.nav-main-item{
 		position: relative;
+		font-size: 1rem;
 		top:0rem;
 	}
-	.profile{
-		position: absolute;
-		top: .5rem;
-		right: 2%;
-		width: 2rem;
-		height: 2rem;
 	
-	}
+
 	form{
 		display: none;
 	}
@@ -249,7 +247,7 @@ h1{
 
 	h1{
 		padding: .5rem;
-		font-size: 1.75rem;
+		font-size: 1rem;
 	}
 	body{
 		padding: 0;
