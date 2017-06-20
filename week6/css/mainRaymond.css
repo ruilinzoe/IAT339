@@ -6,8 +6,15 @@
 @font-face {
     font-family: headingfont;
     /*src:url(../font/SILVS___.TTF);*/
-    src:url(../font/SubwayNovellaDEMO.ttf);
+    /*src:url(../font/SubwayNovellaDEMO.ttf);*/
+    src:url("../font/DINPro-Black.otf"); 
 }
+@font-face {
+    font-family: salefont;
+    src:url("../font/DINPro-Bold.otf"); 
+}
+
+
 #borderIt{
 	/*border: 1px solid black;*/
 	/*background-color: white;*/
@@ -101,8 +108,9 @@ h2{
 	border-radius: 2%;
 	font-family: headingfont;
 	/*background-color: rgb(85, 84, 199);*/
-	color: rgb(25,25,25);
-	width: 33%
+	font-size: 2rem;
+	color: rgb(225,225,255);
+	width: 50%
 }
 
 h3{ 
@@ -120,6 +128,36 @@ p{
 	margin: 0;
 
 }
+figure{
+	padding: 0;
+	margin: 0;
+}
+
+/*sales block on home page*/
+/**/
+/**/
+/**/
+.saleh3{
+	width: 30%;
+	padding: 1.5% 0;
+	font-size: 1.7rem;
+	background: url("../img/fire.png");
+	background-size: auto 100%;
+	font-family: salefont;
+	/*background-position: */
+}
+.saleimg{
+	width: 30%;
+}
+.salefigcap{
+	background-color: white;
+	margin-left: 67%;
+	margin-right: 4%;
+	padding: .5%;
+	font-size: 1rem;
+	background-color: red;
+}
+
 
 
 
@@ -127,6 +165,9 @@ p{
 /**/
 /**/
 /**/
+.eventsection{
+
+}
 .eventp{
 	padding-top: 1rem;
 	position: relative;
@@ -236,7 +277,31 @@ p{
 		margin: 0;
 		width: 100%;
 	}
+
+	.saleh3{
+	width: 90%;
+	padding: 5% 0%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+	margin-top: 5%;
+	font-size: 2.5rem;
+	background: url("../img/fire.png");
+	background-size: auto 100%;
+	/*background-position: */
+	}
+	.saleimg{
+		width: 95%;
+		padding-top: 0;
+		padding-left: 5%;
+	}
+	.salefigcap{
+	margin: 0;
+	width: 90%;
+	margin-left: 5%;
+	padding-left:5%;
 	
+	}
 }
 
 
@@ -374,6 +439,9 @@ p{
 	
 		width: 100%;
 	}
+	h2{
+		width: 100%;
+	}
 
 }
 
@@ -381,6 +449,12 @@ p{
 	h1{
 
 	padding:0rem;
+	}
+		h2{
+			padding: 0;
+			margin: 0;
+			padding: .5rem 0;
+		width: 100%;
 	}
 }
 
