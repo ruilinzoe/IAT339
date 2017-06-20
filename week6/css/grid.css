@@ -1,0 +1,85 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}/*
+Used the example from week3*/
+.box-item-text{
+	flex:1 1 18rem;
+	padding:0 1rem;
+
+}
+
+[class^='grid-col-'] {
+	float: left;
+	padding: 0; 
+	
+}
+
+.grid-col-1of2{
+	width: 49%
+
+}
+.grid-col-1of4{
+	width: 25%;
+
+}
+.grid-col-1of3{
+
+	width: 33%;
+}
+.grid-col-2of3 {
+	width: 66.66%;
+}
+
+.grid-row::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.grid-col-1of4 > .nav-main-item {
+	width: 100%;
+}
+.grid-3of24{
+		width: 13%;
+		float: left;
+}
+
+
+
+@media (max-width: 44rem) {
+
+	.grid-col-1of2 {
+		width: 100%;
+	}
+	.grid-col-2of3{
+		width: 100%;
+	}
+
+}
+
+
+/*
+@media (min-width: 73em) {
+
+	.grid-col-2of3 {
+		width: 66.666%;
+	}
+
+	.grid-col-1of3 {
+		width: 33.333%;
+		padding-left: 1rem;
+	}
+
+	.grid-col-1of4 {
+		width: 25%;
+	}
+	body{
+	padding-top:.25rem;
+}
+
+}
+*/
+
+
+
+

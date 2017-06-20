@@ -2,42 +2,78 @@ nav{
 	font-size: 1.5rem;
 	
 }
+nav a{
+	color: rgb(0,0,0);
+	text-decoration: none;
+	padding: .5rem ;
+	background-color: rgb(67, 220, 232);
+	transition: background-color .5s;
+
+}
+nav a:hover, nav a:focus{
+	/*border: 1px solid black;*/
+	color: rgb(85,84,199);
+	background-color: rgb(67, 198, 232);
+}
 body{
 	margin: 0;
 	background: url("../img/8.jpg");
 	background-repeat: no-repeat;
 	background-position:center; 
 	background-size: 100% 12rem;
-	background-clip:20rem; 
 
+}
+.profile{
+	position: absolute;
+	top: 1rem;
+	right: 3%;
+	width: 4rem;
+	height: 4rem;
+	
 }
 .nav-main-item{
 		position: relative;
 		top:4.5rem;
 
-		background-color: grey;
+		background-color: rgb(67, 198, 232);
 		left:-4%; 
-		padding-left: 7%;
-		padding-right: 3%;
+		padding-left: 6%;
+		padding-right: 0;
 		padding-top: .5rem;
 		padding-bottom: .5rem;
 		/*padding: 1rem 1rem 7% 3&&;*/
-		width: 110%;
+		width: 98%;
+<<<<<<< Temporary merge branch 1
+}
+=======
 	}
+>>>>>>> Temporary merge branch 2
 
-	@media(max-width: 60rem){
+@media(max-width: 60rem){
 	body{
 		background: url("../img/8.jpg");
 	background-repeat: no-repeat;
 	background-position:center; 
 	background-size: 100% 10rem;
-	background-clip:20rem; 
+
 
 	}
 	.nav-main-item{
 		position: relative;
 		top: 3.5rem;
 	}
+	.profile{
+	position: absolute;
+	top: 1rem;
+	right: 3%;
+	width: 3.5rem;
+	height: 3.5rem;
+	
+<<<<<<< Temporary merge branch 1
+	}
+=======
+}
+>>>>>>> Temporary merge branch 2
 }
 
 
@@ -47,7 +83,6 @@ body{
 	background-repeat: no-repeat;
 	background-position:center; 
 	background-size: 100% 7rem;
-	background-clip:20rem; 
 
 	}
 	.nav-main-item{
@@ -55,6 +90,16 @@ body{
 		top: 2.5rem;
 		font-size: 1.25rem;
 	}
+	.profile{
+	position: absolute;
+	top: 1rem;
+	right: 3%;
+	width: 3rem;
+	height: 3rem;
+	
+	}
+
+
 }
 @media(max-width: 30rem){
 	body{
@@ -68,8 +113,18 @@ body{
 		top:1.5rem;
 		font-size: 1rem;
 	}
+	.profile{
+		position: absolute;
+		top: .75rem;
+		right: 3%;
+		width: 2.5rem;
+		height: 2.5rem;
+		
+	}
+
 
 }
+
 @media(max-width: 21rem){
 	body{
 		background: url("../img/8.jpg");
@@ -83,6 +138,18 @@ body{
 		position: relative;
 		top:0rem;
 	}
+	.profile{
+	position: absolute;
+	top: .5rem;
+	right: 2%;
+	width: 2rem;
+	height: 2rem;
+	
+<<<<<<< Temporary merge branch 1
+	}
+=======
+}
+>>>>>>> Temporary merge branch 2
 	h1{
 		font-size: 1.75rem;
 	}
@@ -91,8 +158,13 @@ body{
 h1{
 	color: white;
 	margin: 0;
-	padding: 1rem;
+	padding: .5rem;
 }
+<<<<<<< Temporary merge branch 1
+=======
+
+
+
 .backgroundImage{
 	/*position: relative;
 	top: -2rem;
@@ -113,3 +185,4 @@ h1{
 	background-size:  50% auto;
 	background-repeat: no-repeat;
 }*/
+>>>>>>> Temporary merge branch 2
