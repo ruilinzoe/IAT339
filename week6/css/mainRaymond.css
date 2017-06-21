@@ -21,6 +21,7 @@
 	border-radius: 1%;
 	/*background-color: rgb(67, 198, 232);*/
 }
+
 body{
 	margin: 0;
 	padding-top: 2rem;
@@ -131,6 +132,9 @@ p{
 figure{
 	padding: 0;
 	margin: 0;
+}
+ a :hover, a:focus, a:active{
+	opacity: .9;
 }
 
 /*sales block on home page*/
