@@ -54,6 +54,19 @@ Used the example from week3*/
 	.grid-col-2of3{
 		width: 100%;
 	}
+	.grid-col-1of3{
+
+	width: 100%;
+	}
+	.grid-col-1of4{
+	width: 100%;}
+	.productImg{
+/*	 position: relative;
+  left: 30%;*/
+  width: 24%;
+/*  
+  padding: 2rem;*/
+}
 
 }
 
