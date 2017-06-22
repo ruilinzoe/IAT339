@@ -451,6 +451,127 @@ footer p a:hover, footer p a:active, footer p a:focus{
 	color: grey;
 }
 
+/*here is the specific value for te result page*/
+/**/
+/**/
+/**/
+/**/
+.resulth3{
+	display: block;
+	padding-left: 2rem;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	position: relative;
+	top: 2rem;
+	left: 5rem;
+}
+.resulth2{
+	width: 85%;
+	font-size: 3rem;
+}
+.resultimg{
+	width: 10%;
+	height: 10%;
+	margin: .5rem;
+	margin-left: 15%;
+}
+.resultimgc{
+	position: relative;
+	top: 11rem;
+}
+.resultp{
+	margin-left: 15%;
+
+	font-size: 1.25rem;
+	color: white;
+	width: 40%;
+	margin-bottom: 2rem;
+	padding-bottom: 1rem;
+	border-bottom:1px solid black;
+}
+.resultbox{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.resulttitle{
+	font-size: 3rem;
+	margin-top: 4%;
+}
+.resulttitlec{
+	position: relative;
+	top: 11rem;
+}
+
+#saleblock{
+	width: 45%;
+	padding-left: 25%;
+}
+.resultfigure{
+	width: 100%;
+}
+.resultsaleh3{
+	 width: 100%
+    padding-top: 1.5%;
+    font-size: 2.5rem;
+    background: url("../img/fire.png");
+    background-size: auto 100%;
+    font-family: salefont;
+}
+.resultsaleimg{
+	width: 100%;
+}
+
+.resultfigcap{
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(67, 198, 232);
+}
+
+@media(max-width: 80rem){
+	.resultsaleh3{
+		display: none;
+	}
+	.resultfigure{
+		display: none;
+	}
+	.resultp{
+		width: 60%;
+	}
+	.resultimgc{
+		position: static;
+	}
+	.resulttitlec{
+		position: static;
+	}
+}
+
+
+@media(max-width: 60rem){
+	.resulth2{
+		font-size: 2rem;
+	}
+	.resulth3{
+		font-size: 1.5rem;
+	}
+}
+
+@media(max-width: 35rem){
+	.resulth2{
+		font-size: 1.5rem;
+		padding: 0;
+		padding-left: 2%;
+   		padding-top: .3rem;
+  		padding-bottom: .3rem;
+  		margin: 2rem;
+  		margin-left: 0;
+	}
+	.resulth3{
+		font-size: 1rem;
+	}
+
+
+}
 
 
 
