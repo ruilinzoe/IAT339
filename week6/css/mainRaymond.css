@@ -351,6 +351,7 @@ nav a:hover, nav a:focus{
 .nav-main-item{
 		position: relative;
 		top:-3rem;
+		padding-left: 5%;
 
 		/*background-color: rgb(67, 198, 232);*/
 		/*left:-4%; */
@@ -441,9 +442,9 @@ a{
 
 }
 
-a :hover, a:focus, a:active{
-	opacity: .9;
-	text-decoration: underline;
+a:hover, a:focus, a:active{
+	transform: scale(1.1,1.1);
+	text-decoration: none;
 }
 footer p{
 	color: white;
@@ -469,6 +470,11 @@ footer p a:hover, footer p a:active, footer p a:focus{
 #bayblock{
 	width: 100%;
 }
+#resultblock{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
 
 /*here is the specific value for te result page*/
 /**/
@@ -477,49 +483,65 @@ footer p a:hover, footer p a:active, footer p a:focus{
 /**/
 .resulth3{
 	display: block;
-	padding-left: 2rem;
 	font-size: 2rem;
 	margin-bottom: 2rem;
 	position: relative;
-	top: 2rem;
-	left: 5rem;
+	background-color: #82a4d9;
+	padding: 3% 5% 1% 5%;
+	width: 100%;
+	top: -3rem;
 }
 .resulth2{
-	width: 85%;
+	width: 100%;
 	font-size: 3rem;
+	margin: 0;
+	background-color: #5787d0;
+	padding: 2% 5% 2% 5%;
+	border-radius: 0;
+	position: relative;
+	top:-2.75rem;
 }
 .resultimg{
-	width: 10%;
+	max-width: 49%;
 	height: 10%;
-	margin: .5rem;
-	margin-left: 15%;
-}
-.resultimgc{
-	position: relative;
-	top: 11rem;
+	padding-left:5%;
 }
 .resultp{
-	margin-left: 15%;
+	width: 100%;
 
 	font-size: 1.25rem;
 	color: white;
-	width: 40%;
-	margin-bottom: 2rem;
-	padding-bottom: 1rem;
-	border-bottom:1px solid black;
+	padding:  5% 2% 2% 5%;
+	height: 100%;
+
 }
-.resultbox{
+.resultbox1{
+	width: 50%;
+	background-color: #96b1e0;
 	display: flex;
 	flex-wrap: wrap;
+	border-bottom:1px solid black;
+	position: relative;
+	top: -5rem;
 	
+}
+.resultbox2{
+	width: 50%;
+	background-color: #a6bee4;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom:1px solid black;
+	position: relative;
+	top: -5rem;
+	
+}
+.resulttext{
+	width: 49%;
 }
 .resulttitle{
 	font-size: 3rem;
-	margin-top: 4%;
-}
-.resulttitlec{
-	position: relative;
-	top: 11rem;
+	padding: 2% 2% 2% 5%;
+
 }
 
 
@@ -546,14 +568,19 @@ footer p a:hover, footer p a:active, footer p a:focus{
 	.resultfigure{
 		display: none;
 	}
-	.resultp{
-		width: 60%;
-	}
 	.resultimgc{
 		position: static;
 	}
 	.resulttitlec{
 		position: static;
+	}
+}
+@media(max-width: 76rem){
+	.resultp{
+		font-size: 1rem;
+	}
+	.resulttitle{
+		font-size: 2.5rem;
 	}
 }
 
@@ -565,17 +592,42 @@ footer p a:hover, footer p a:active, footer p a:focus{
 	.resulth3{
 		font-size: 1.5rem;
 	}
+	.resultbox1, .resultbox2{
+		width: 100%;
+	}
+	.resultimg{
+		width: 30%;
+	}
+	.resulttext{
+		width: 70%;
+	}
+	.resultp{
+		padding-top: 0;
+	}
+}
+@media(max-width: 40rem){
+	.resulttitle{
+		font-size: 2rem;
+	}
+	.resultimg{
+		width:40%;
+	}
+		.resulttext{
+		width: 60%;
+	}
+
+}
+@media(max-width: 30rem){
+
+	#resultblock{
+		width: 30rem;
+	}
+
 }
 
 @media(max-width: 35rem){
 	.resulth2{
 		font-size: 1.5rem;
-		padding: 0;
-		padding-left: 2%;
-   		padding-top: .3rem;
-  		padding-bottom: .3rem;
-  		margin: 2rem;
-  		margin-left: 0;
 	}
 	.resulth3{
 		font-size: 1rem;
@@ -657,17 +709,17 @@ footer p a:hover, footer p a:active, footer p a:focus{
 /**/
 .saleh3{
 	width: 100%;
-	padding-top: 15%;
-	padding-bottom: 15%;
+	padding: 15% 0 15% 5%;
 	font-size: 2.35rem;
 	background-color: #76a0dc;
-	/*background: url("../img/fire.png");
-	background-size: auto 100%;*/
 	font-family: salefont;
-	/*background-position: */
-
 	position: relative;
 	top: -3rem;
+	transition: color .5s;
+}
+.saleh3:hover, .saleh3:focus{
+	color: lightgrey;
+	background-color:#7ea8e2 ;
 }
 .saleimg{
 	width: 100%;
@@ -728,9 +780,11 @@ footer p a:hover, footer p a:active, footer p a:focus{
 .eventp3{
 	color: white;
 	font-size: 1.25rem;
-	margin-left: 20%;
-	margin-top: 5%;
 	transition: color .5s;
+	background-color: #8f8e91;
+	position: relative;
+	top: -3rem;
+	padding: 3% 5% 5% 5%;
 }
 
 
@@ -767,13 +821,15 @@ footer p a:hover, footer p a:active, footer p a:focus{
   	color:  black;
   }
   .eventp:hover, .eventp:active, .eventp:focus{
-  	color: lightgrey;
+  	color: rgb(235,235,235);
   }
    .eventp2:hover, .eventp2:active, .eventp2:focus{
   	color: rgb(180,180,180);
   }
   .eventp3:hover, .eventp3:active, .eventp3:focus{
-  	color: rgb(180,180,180);
+  	color: rgb(50,50,50);
+  	text-decoration: none;
+  	background-color: #878d96;
   }
  
  .eventimg{
@@ -993,17 +1049,30 @@ h1{
 			padding-left: 16rem;
 			font-size: 2rem;
 }
+
 .absolutestanly{
 	top: 12.5rem;
 }
 form{
-	position: absolute;
-		top: 11rem;
-		right: .5rem;
+	display: none;
 }
 .salefigure{
 	width: 48%;
 }
+#saleblock{
+	width: 100%;
+}
+#stanlyblock{
+	width: 100%;
+}
+
+.eventfigure{
+position: static;
+}
+.absolutestanly{
+	position: static;
+}
+
 
 
 }
