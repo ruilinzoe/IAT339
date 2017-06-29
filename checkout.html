@@ -1,3 +1,4 @@
+
 <!-- https://designmodo.com/demo/checkout-panel/ -->
 <!doctype html>
  
@@ -36,68 +37,50 @@
       <h2>Payment</h2>
     <div class="checkout-panel">
       <div class="panel-body">
-    <!-- <h2 class="title">Checkout</h2> -->
-   
-      <div class="progress-bar">
-        <div class="step active"></div>
-      <div class="step active">
-        </div>
-      <div class="step"></div>
-       <div class="step"></div>
+
+ 
+    <div class="payment-method grid-col-1of2card">
+<!--       <label for="card" >
+ -->      <div class="card-logos method grid-col-1of2card">
+          <img alt="card" class="card-logos grid-col-1of2card" src="img/visa.png"/>    
       </div>
- 
-    <div class="payment-method">
-      <label for="card" class="method card">
-      <div class="card-logos">
-          <img class="card-logos" src="img/visa.png"/>
-          
-        </div>
+    
+     <!--  </label> -->
  
 
-        <div class="radio-input ">
-          <input id="card" type="radio" name="payment">
-          Pay $140.00 with credit card
-        </div>
-      </label>
- 
+  <!-- <label for="card" > -->
+      <div class="card-logos method">
+          <img alt="paypal" class="paypal-logos grid-col-1of2card" src="img/paypal.png"/>    
+      </div>
+     <!--  </label> -->
 
-      <label for="paypal" class="method paypal">
-        <img class="paypal-logos" src="img/paypal.png"/>
-        <div class="radio-input">
-          <input class="inputt" id="paypal" type="radio" name="payment">
-          Pay $140.00 with PayPal
-        </div>
-      </label>
     </div>
  
 
 
     <div class="input-fields">
-      <div class="column-1">
-        <label for="cardholder">Cardholder's Name</label>
-        <input class="inputt" type="text" id="checktext" />
+      <div class="grid-col-1of2">
+        <label>Cardholder's Name</label>
+        <input class="inputtt" type="text" id="checktext" />
  
-        <div class="small-inputs">
-          <div>
-            <label for="date">Valid thru</label>
-            <input class="inputt" type="text" id="checktext"/>
+          <div class="small-inputs">
+            <div>
+              <label>Valid thru</label>
+              <input class="inputtt" type="text" id="checktext2"/>
+            </div>
+   
+
+            <div>
+              <label>CVV / CVC *</label>
+              <input class="inputtt" type="password" id="checkpass"/>
+            </div>
           </div>
- 
-          <div>
-            <label for="verification">CVV / CVC *</label>
-            <input class="inputt" type="password" id="checkpass"/>
-          </div>
-        </div>
  
       </div>
 
 
 
-      <div class="column-2">
-        <label for="cardnumber">Card Number</label>
-        <input class="inputt" type="password" id="checkpass">
-
-        <span class="info">* CVV or CVC is the card security code, unique three digits number on the back of your card separate from its number.</span>
+      <div class="grid-col-1of2card">
       </div>
     </div>
   </div>
@@ -105,7 +88,9 @@
 
 
   <div class="panel-footer">
-    <button class="btn back-btn">Back</button>
-    <button class="btn next-btn">Next Step</button>
+  <a href="shop.html" class="btn back-btn grid-col-1of2card">Back</a>
+  <a href="shop.html" class="btn next-btn grid-col-1of2card">Next</a>
   </div>
 </div>
+</body>
+</html>
