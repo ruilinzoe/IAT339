@@ -12,111 +12,126 @@
  
     <title> Shop</title>
  
-    <link rel="stylesheet"  href="css/mainZoe.css">
-    <link rel="stylesheet" href="css/grids.css">
-
+   
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet"  href="css/mainRaymond.css">
   </head>
 
 
-  <body>
+  <body class="shopbody">
 
     <h1>Shop</h1>
 
-    <img class="profile" src="img/1.jpg" alt="profile picture">
+    <!-- navigaion starts -->
     <nav class="nav-main-item">
-
-      <a class="grid-3of24" href="">Shop</a>
-      <a class="grid-3of24" href="">Event</a>
-      <a class="grid-3of24" href="">Video</a>
-      <a class="grid-3of24" href="">Sponsor</a>
-      <a class="grid-3of24" href="">Profile</a>
-      
+      <a class="grid-3of24" href="index.html">home</a>
+      <a class="grid-3of24" href="shop.html">Shop</a>
+      <a class="grid-3of24" href="sponsor.html">Sponsor</a>
     </nav>
-    <form> <label>  </label> <input type="text" name="Search" placeholder="Search"> </form>
+    <form method="Get" action="result.html"> <label></label>  <input type="text" name="Search" placeholder="Result"> </form>
+      <!-- navigation ends -->
 
-       <h3 class="grid-1of3">Shop</h3>
+<!--        <h3 class="grid-1of3">Shop</h3> -->
       <h2>Product list</h2>
 
 
-      <img src="img/11.jpg" alt="product">
-     
-      <img src="img/22.jpg" alt="product">
-     
-      <img src="img/33.jpg" alt="product">
-        <img src="img/44.jpg" alt="product">
-      
-    
+<select id="barblock" class="productlisth2 grid-col-1of3shop">
+  <option value="Greens">Green</option>
+  <option value="Red">Red</option>
+  <option value="Blue">Blue</option>
+  <option value="Color" selected>Color</option>
+</select>
+
+<select id="barblock" class="productlisth2 grid-col-1of3shop">
+  <option value="volvo">Medium</option>
+  <option value="saab">Low</option>
+  <option value="vw">High</option>
+  <option value="audi" selected>Price</option>
+</select>
+
+<select id="barblock" class="productlisth2 grid-col-1of3shop">
+  <option value="volvo">8 inch</option>
+  <option value="saab">10 inch</option>
+  <option value="vw">13 inch</option>
+  <option value="audi" selected>Length</option>
+</select>
 
 
 
 
- 
+    <figure class="grid-col-1of3 shopfigure backbox" >
+    <a href="detail.html">
+          <img class="shopimg" src="img/11.jpg" alt="event picture sof stanky park">
+           <figure class="shopfigcap">Sold Out!</figure>
+          <h3 class="sponsortext">Santa40" skateboard $159.95</h3>
+          </a>
+    </figure>
 
-<!--   <div class="grid-row">
-    <div class="grid-col-10of10"> -->
-    <!-- <section>
-      <header> -->
-        <h2>Product Detail</h2>
-        <figcaption class="figureCaption">Product 1</figcaption>
-      <!-- </header> -->
-          <img class="sectionImg" src="img/11.jpg" alt="section pic">
-
-        <p class="grid-1of3"> 
-           <ol>
-                <li><em>Price</em></li>
-                <li>Phone Number:  780-598-1468</li>
-                <li>Location :California</li>
-            </ol>
-        </p>
-
-        <img class="sectionImg" alt="Sponsor3" src="img/22.jpg">
-        <figcaption class="figureCaption">Product 2</figcaption>
-        <p >      
-          <ol>
-                  <li><em>Price</em></li>
-                <li>Phone Number:  780-598-1468</li>
-                <li>Location :California</li>
-          </ol>
-          </p>
+   <figure class="grid-col-1of3 shopfigure backbox" >
+   <a href="detail.html">
+          <img class="shopimg" src="img/22.jpg" alt="event picture sof stanky park">
+           <figure class="shopfigcap"> 15 left</figure>
+          <h3 class="sponsortext">Santa40" skateboard $159.95</h3>
+          </a>
+    </figure>
 
 
-          <img class="sectionImg" alt="Sponsor3" src="img/33.jpg">
-        <figcaption class="figureCaption">Product 3</figcaption>
-        <p >      
-          <ol>
-                  <li><em>Email Address: dikhnv@<li><em>Price</em></li>
-                <li>Phone Number:  780-598-1468</li>
-                <li>Location :California</li>
-          </ol>
-          </p>          
+   <figure class="grid-col-1of3 shopfigure backbox" >
+   <a href="detail.html">
+          <img class="shopimg" src="img/33.jpg" alt="event picture sof stanky park">
+           <figure class="shopfigcap">Sold Out!</figure>
+          <h3 class="sponsortext">Santa40" skateboard $159.95</h3>
+          </a>
+    </figure>
 
-  
 
-          <img class="sectionImg" alt="Sponsor3" src="img/44.jpg">
-        <figcaption class="figureCaption">Product 4</figcaption>
-        <p >      
-          <ol>
-                  <li><em>Email Address: dikhnv@<li><em>Price</em></li>
-                <li>Phone Number:  780-598-1468</li>
-                <li>Location :California</li>
-          </ol>
-          </p>      
+   <figure class="grid-col-1of3 shopfigure backbox" >
+   <a href="detail.html">
+          <img class="shopimg" src="img/44.jpg" alt="event picture sof stanky park">
+           <figure class="shopfigcap">20 left</figure>
+          <h3 class="sponsortext">Santa40" skateboard $159.95</h3>
+          </a>
+    </figure>
 
- </body>
+
+   <figure class="grid-col-1of3 shopfigure backbox" >
+   <a href="detail.html">
+          <img class="shopimg" src="img/55.jpg" alt="event picture sof stanky park">
+           <figure class="shopfigcap">40 left</figure>
+          <h3 class="sponsortext">Santa40" skateboard $159.95</h3>
+          </a>
+    </figure>
+
+
+   <figure class="grid-col-1of3 shopfigure backbox" >
+   <a href="detail.html">
+          <img class="shopimg" src="img/66.jpg" alt="event picture sof stanky park">
+           <figure class="shopfigcap">1 left</figure>
+          <h3 class="sponsortext">Santa40" skateboard $159.95</h3></a>
+    </figure>
+
+
+   <figure class="grid-col-1of3 shopfigure backbox" >
+   <a href="detail.html">
+          <img class="shopimg" src="img/77.jpg" alt="event picture sof stanky park">
+           <figure class="shopfigcap">3 left</figure>
+          <h3 class="sponsortext">Santa40" skateboard $159.95</h3>
+          </a>
+    </figure>
+
+   <figure class="grid-col-1of3 shopfigure backbox" >
+   <a href="detail.html">
+          <img class="shopimg" src="img/88.jpg" alt="event picture sof stanky park">
+           <figure class="shopfigcap">Sold Out!</figure>
+          <h3 class="sponsortext">Santa40" skateboard $159.95</h3>
+          </a>
+    </figure>
+
+
+       <footer>
+      <p> Kkateboarders/p>
+      <p>Contact information: <a href="">theskateborders@tsb.com</a>.</p>
+    </footer>
+
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
