@@ -2,6 +2,12 @@
 	box-sizing: border-box;
 }/*
 Used the example from week3*/
+
+
+.flexbox{
+	display: flex;
+	flex-wrap: wrap;
+}
 .box-item-text{
 	flex:1 1 18rem;
 	padding:0 1rem;
@@ -29,6 +35,9 @@ Used the example from week3*/
 .grid-col-2of3 {
 	width: 66.66%;
 }
+.grid-row{
+	float: left;
+}
 
 .grid-row::after {
 	content: "";
@@ -43,6 +52,9 @@ Used the example from week3*/
 		width: 13%;
 		float: left;
 }
+.grid-1of3{
+	width: 33%;
+}
 
 
 
@@ -54,8 +66,23 @@ Used the example from week3*/
 	.grid-col-2of3{
 		width: 100%;
 	}
+	.grid-col-1of3{
+
+	width: 100%;
+	}
+	.grid-col-1of4{
+	width: 100%;}
+	.productImg{
+/*	 position: relative;
+  left: 30%;*/
+  width: 24%;
+/*  
+  padding: 2rem;*/
+}
 
 }
+
+
 
 
 /*
